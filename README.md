@@ -1,4 +1,2 @@
-<p align="center">
-  <img src="[your_relative_path_here](https://id.m.wikipedia.org/wiki/Berkas:Google_Gemini_logo.svg)" width="350" title="hover text">
-</p>
+<img src="https://id.m.wikipedia.org/wiki/Berkas:Google_Gemini_logo.svg" width="344"/>" width="344">
 <p></p>AI Web with Gemini</p>
