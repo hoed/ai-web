@@ -16,7 +16,7 @@ let output = document.querySelector('.output');
  // Call the gemini-pro-vision model, and get a stream of results
  const genAI = new GoogleGenerativeAI(API_KEY);
  const model = genAI.getGenerativeModel({
-   model: "gemini-pro",
+   model: "gemini-1.5-flash",
    safetySettings: [
      {
        category: HarmCategory.HARM_CATEGORY_HARASSMENT,
@@ -28,7 +28,7 @@ let output = document.querySelector('.output');
 const chat = model.startChat ({
   history:[],
   generationConfig: {
-    maxOutputTokens: 100
+    maxOutputTokens: 10000
   }
 })
 
